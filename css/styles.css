@@ -1,0 +1,35 @@
+#play {
+float: right;
+height: 300px;
+margin-right: 34px;
+margin-top: 140px;
+border: 12px solid rgba(0, 135, 191, 0.6);
+border-radius: 15px;
+}
+
+blockquote {
+  color: rgba(0, 135, 191, 0.81);
+  font-size: 29pt;
+  font-weight: lighter;
+  margin-top: 200px;
+  margin-left: 37px;
+}
+
+h4 {
+  color: rgba(0, 135, 191, 0.81);
+  font-size: 29pt;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: rgba(146, 230, 239, 0.54);
+}
+
+/*marquee {
+  color: white;
+  font-size: 37pt;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 130px;
+}*/
