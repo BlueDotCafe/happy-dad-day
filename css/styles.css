@@ -1,29 +1,31 @@
 #play {
-float: right;
-height: 300px;
-margin-right: 34px;
-margin-top: 140px;
+float: left;
+height: 290px;
+margin-left: 90px;
+margin-top: 120px;
 border: 12px solid rgba(0, 135, 191, 0.6);
 border-radius: 15px;
 }
 
 blockquote {
-  color: rgba(0, 135, 191, 0.81);
-  font-size: 29pt;
+  float: right;
+  color: rgba(5, 29, 47, 0.87);
+  font-size: 22pt;
   font-weight: lighter;
-  margin-top: 200px;
-  margin-left: 37px;
+  margin-top: 240px;
+  margin-right: 140px;
 }
 
 h4 {
-  color: rgba(0, 135, 191, 0.81);
+  color: rgba(5, 29, 47, 0.87);
   font-size: 29pt;
   font-weight: lighter;
   text-align: center;
+  margin-top: 50px;
 }
 
 .jumbotron {
-  background-color: rgba(146, 230, 239, 0.54);
+  background-color: rgba(196, 241, 246, 0.45);
 }
 
 /*marquee {
