@@ -6,27 +6,18 @@ border: 35px solid rgba(91, 180, 214, 0.45);
 margin-bottom: 0px;
 }
 
-blockquote {
-  float: right;
-  color: rgba(5, 29, 47, 0.87);
-  font-size: 22pt;
-  font-weight: lighter;
-  margin-top: 240px;
-  margin-right: 140px;
-}
-
 h4 {
   background-color: rgba(91, 180, 214, 0.45);
   color: rgba(5, 29, 47, 0.87);
   font-size: 15pt;
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
   width: 420px;
   display: block;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .jumbotron {
