@@ -1,10 +1,9 @@
 #play {
-float: left;
-height: 290px;
-margin-left: 90px;
-margin-top: 120px;
-border: 12px solid rgba(0, 135, 191, 0.6);
-border-radius: 15px;
+display: block;
+margin: auto;
+width: 420px;
+border: 35px solid rgba(91, 180, 214, 0.45);
+margin-bottom: 0px;
 }
 
 blockquote {
@@ -17,15 +16,32 @@ blockquote {
 }
 
 h4 {
+  background-color: rgba(91, 180, 214, 0.45);
   color: rgba(5, 29, 47, 0.87);
-  font-size: 29pt;
+  font-size: 15pt;
   font-weight: lighter;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 0px;
+  width: 420px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .jumbotron {
   background-color: rgba(196, 241, 246, 0.45);
+}
+
+#vaca-form {
+  background-color: rgba(91, 180, 214, 0.45);
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 420px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 0px;
 }
 
 /*marquee {
