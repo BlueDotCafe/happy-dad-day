@@ -1,38 +1,85 @@
 #play {
 display: block;
 margin: auto;
-width: 420px;
+width: 395px;
 border: 35px solid rgba(91, 180, 214, 0.45);
+border-top: 26px solid rgba(91, 180, 214, 0.45);
+border-bottom: 35px solid rgba(91, 180, 214, 0.45);
 margin-bottom: 0px;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+
+}
+
+.well {
+  width: 322px;
+  display: block;
+  margin: auto;
+  margin-bottom: 0px;
+  padding: 4px;
 }
 
 h4 {
   background-color: rgba(91, 180, 214, 0.45);
   color: rgba(5, 29, 47, 0.87);
-  font-size: 15pt;
-  font-weight: bold;
+  font-size: 13pt;
+  font-weight: normal;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
-  width: 420px;
+  width: 395px;
   display: block;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 40px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
-.jumbotron {
-  background-color: rgba(196, 241, 246, 0.45);
-}
+
 
 #vaca-form {
   background-color: rgba(91, 180, 214, 0.45);
   padding-left: 40px;
   padding-right: 40px;
-  width: 420px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  width: 395px;
   display: block;
   margin: auto;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 7px;
+  border-radius: 25px;
+}
+
+
+label {
+  font-family: sans-serif;
+  font-weight: normal;
+  padding-bottom: 2px;
+  color: rgba(5, 29, 47, 0.87);
+  text-align: center;
+  font-size: 12pt;
+}
+
+select {
+  display: block;
+  margin: auto;
+  width: 290px;
+  font-size: 12pt;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: rgba(5, 29, 47, 0.87);
+  text-align: center;
+}
+
+
+#btn-red {
+  display: block;
+  margin: auto;
+  margin-top: 6px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 13pt;
 }
 
 /*marquee {

@@ -11,103 +11,56 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <h4>*VACATION MULTIPLE CHOICE* <br> where am I going?!</h4>
-        <img id="play" src="img/500.gif" loop=1000 />
-        <form id="vaca-form">
-         <div class="form-group">
-           <label for="name">ENTER YOUR NAME</label>
-           <input id="name" class="form-control" type="text">
-         </div>
-         <label for="">On your vacation,you'd rather be:</label><br>
-         <select class="custom-select">
-          <option selected>select one</option>
-          <option value="read">reading a good book by myself!</option>
-          <option value="dance">dancing the night away with friends!</option>
-          <option value="sights">seeing the sights with family!</option>
-        </select>
-        <br>
-        <label for="">On your vacation,you'd rather be:</label><br>
-        <select class="custom-select">
-         <option selected>select one</option>
-         <option value="read">reading a good book by myself!</option>
-         <option value="dance">dancing the night away with friends!</option>
-         <option value="sights">seeing the sights with family!</option>
-        </select>
-        <br>
-        <label for="">On your vacation,you'd rather be:</label><br>
-        <select class="custom-select">
-        <option selected>select one</option>
-        <option value="read">reading a good book by myself!</option>
-        <option value="dance">dancing the night away with friends!</option>
-        <option value="sights">seeing the sights with family!</option>
-        </select>
-        <br>
-        <label for="">On your vacation,you'd rather be:</label><br>
-        <select class="custom-select">
-       <option selected>select one</option>
-       <option value="read">reading a good book by myself!</option>
-       <option value="dance">dancing the night away with friends!</option>
-       <option value="sights">seeing the sights with family!</option>
-        </select>
-        <br>
-        <label for="">On your vacation,you'd rather be:</label><br>
-        <select class="custom-select">
-      <option selected>select one</option>
-      <option value="read">reading a good book by myself!</option>
-      <option value="dance">dancing the night away with friends!</option>
-      <option value="sights">seeing the sights with family!</option>
-        </select>
-        <br>
-        <label>WHEN IT COMES TO FOOD, YOU PREFER</label>
-        <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="spicey" checked>
-           spicey-hot tamales!
-         </label>
-        </div>
-        <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="sweet">
-           world class pastries!
-         </label>
-        </div>
-        <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="pasta">
-           classic pasta!
-         </label>
-        </div>
-        <div class="form-check form-check-inline">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 1
-        </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 2
-          </label>
-        </div>
-        <div class="form-check form-check-inline disabled">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled> 3
-          </label>
-        </div>
-        <button type="submit" class="btn btn-danger btn-large">WHERE AM I GOING?!!</button>
-        <div id="output">
-        </div>
-      </form>
+
+          <h4><div class="well">don't get stuck at the river with family <br>let us help you
+          pick your vacation!</div></h4>
+          <img id="play" src="img/500.gif" loop=1000 />
+          <form id="vaca-form">
+           <label for="eat">you'd rather be eating</label><br>
+           <select id="eat" class="custom-select">
+            <option selected>select one</option>
+            <option value="pasta">world class pasta with antipasti!</option>
+            <option value="pastry">artisan pastries & cheese plates!</option>
+            <option value="fruit">fresh fruit & frozen daiquiries!</option>
+          </select>
+          <br>
+          <label for="vaca">on vaca, you'd rather be</label><br>
+          <select id="vaca" class="custom-select">
+             <option selected>select one</option>
+             <option value="gondola">a romantic gondola ride!</option>
+             <option value="versailles">a guided tour of versailles!</option>
+             <option value="beach">getting a massage on the beach!</option>
+          </select>
+          <br>
+          <label for="dinner">you'd rather have dinner with</label><br>
+          <select id="dinner" class="custom-select">
+            <option selected>select one</option>
+            <option value="grandma">my grandma! she is so wise & sweet.</option>
+            <option value="dance">coco chanel! what exquisite style!</option>
+            <option value="sights">my facebook friends! all of them.</option>
+          </select>
+          <br>
+          <label for="weekend">this weekend you'll probably be</label><br>
+          <select id="weekend"class="custom-select">
+           <option selected>select one</option>
+           <option value="read">reading an old classic with an esspresso.</option>
+           <option value="film">binge watching ameli & chocolat.</option>
+           <option value="drink">drinking & laughing with my buds!</option>
+            </select>
+          <br>
+          <label for="wear">you'd rather be wearing:</label><br>
+          <select id="wear" class="custom-select">
+            <option selected>select one</option>
+            <option value="shoes">i don't know, but the shoes are italian!</option>
+            <option value="dior">is it free? dior, chanel, louboutin!</option>
+            <option value="swim">a suit dude! i'm in the water!</option>
+          </select>
+          <br>
+          <button id="btn-red" type="submit" class="btn btn-danger btn-large">where am i going ?</button>
+          <div id="output">
+          </div>
+          </form>
+      </div>
     </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
