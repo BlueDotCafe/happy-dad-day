@@ -2,9 +2,9 @@
 display: block;
 margin: auto;
 width: 395px;
-border: 35px solid rgba(91, 180, 214, 0.45);
-border-top: 26px solid rgba(91, 180, 214, 0.45);
-border-bottom: 35px solid rgba(91, 180, 214, 0.45);
+border: 35px solid rgba(163, 227, 241, 0.83);
+border-top: 26px solid rgba(163, 227, 241, 0.83);
+border-bottom: 35px solid rgba(163, 227, 241, 0.83);
 margin-bottom: 0px;
 border-bottom-right-radius: 2px;
 border-bottom-left-radius: 40px;
@@ -20,7 +20,7 @@ border-bottom-left-radius: 40px;
 }
 
 h4 {
-  background-color: rgba(91, 180, 214, 0.45);
+  background-color: rgba(163, 227, 241, 0.83);
   color: rgba(5, 29, 47, 0.87);
   font-size: 13pt;
   font-weight: normal;
@@ -38,7 +38,7 @@ h4 {
 
 
 #vaca-form {
-  background-color: rgba(91, 180, 214, 0.45);
+  background-color: rgba(163, 227, 241, 0.83);
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 25px;
@@ -58,17 +58,18 @@ h4 {
 label {
   font-family: sans-serif;
   font-weight: normal;
-  padding-bottom: 2px;
   color: rgba(5, 29, 47, 0.87);
   text-align: center;
   font-size: 12pt;
+  padding-bottom: 1.5px;
 }
 
 select {
   display: block;
   margin: auto;
-  width: 290px;
+  width: 230px;
   font-size: 12pt;
+  margin-bottom: 0px;
   font-family: sans-serif;
   font-weight: normal;
   color: rgba(5, 29, 47, 0.87);
