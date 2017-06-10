@@ -35,13 +35,6 @@ var answers is an array of strings whose members are the raw selected values fro
       /*show cancun*/
       $(".cancun,.cancun-ul").show();
     }
-
-
-
-
-
-
-
   });
 });
 /*
