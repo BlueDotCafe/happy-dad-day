@@ -63,7 +63,7 @@ label {
   color: rgba(5, 29, 47, 0.87);
   text-align: center;
   font-size: 12pt;
-  padding-bottom: 1.5px;
+  
 }
 
 select {
@@ -102,7 +102,7 @@ select {
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
-  padding: 35px;
+  padding: 22px;
 }
 
 .italy-ul, .paris-ul, .cancun-ul {
@@ -113,8 +113,8 @@ select {
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   border-bottom-left-radius: 45px;
-  padding: 35px;
-  padding-left: 15px;
+  padding: 22px;
+  padding-left: 0px;
 }
 
 h5 {
