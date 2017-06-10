@@ -1,38 +1,40 @@
 #play {
 display: block;
 margin: auto;
-width: 395px;
+width: 375px;
 border: 35px solid rgba(163, 227, 241, 0.83);
 border-top: 26px solid rgba(163, 227, 241, 0.83);
 border-bottom: 35px solid rgba(163, 227, 241, 0.83);
 margin-bottom: 0px;
 border-bottom-right-radius: 2px;
-border-bottom-left-radius: 40px;
+border-bottom-left-radius: 45px;
 }
 
 
 .well {
-  width: 322px;
+  width: 300px;
   display: block;
   margin: auto;
   margin-bottom: 0px;
-  padding: 4px;
+  border-radius: 25px;
+  border-bottom-right-radius: 2px;
+
 }
 
 h4 {
   background-color: rgba(163, 227, 241, 0.83);
   color: rgba(5, 29, 47, 0.87);
-  font-size: 13pt;
+  font-size: 12pt;
   font-weight: normal;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
-  width: 395px;
+  width: 375px;
   display: block;
   margin: auto;
   padding-top: 40px;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
 }
 
 
@@ -41,17 +43,17 @@ h4 {
   background-color: rgba(163, 227, 241, 0.83);
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
   padding-top: 25px;
-  width: 395px;
+  width: 375px;
   display: block;
   margin: auto;
   text-align: center;
   margin-top: 7px;
   border-top-right-radius: 2px;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 
 
@@ -67,7 +69,7 @@ label {
 select {
   display: block;
   margin: auto;
-  width: 230px;
+  width: 295px;
   font-size: 12pt;
   margin-bottom: 0px;
   font-family: sans-serif;
@@ -80,11 +82,45 @@ select {
 #btn-red {
   display: block;
   margin: auto;
+  text-align: center;
   margin-top: 6px;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 13pt;
+  font-size: 12pt;
+  width: 155px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid grey;
 }
+
+.italy, .paris, .cancun {
+  width: 300px;
+  float: left;
+  border: 15px solid rgba(163, 227, 241, 0.83);
+  border-top-right-radius: 2px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  padding: 35px;
+}
+
+.italy-ul, .paris-ul, .cancun-ul {
+  width: 300px;
+  float: right;
+  border: 15px solid rgba(163, 227, 241, 0.83);
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  padding: 35px;
+  padding-left: 15px;
+}
+
+h5 {
+  text-align: center;
+}
+
+
 
 /*marquee {
   color: white;
