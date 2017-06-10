@@ -6,7 +6,7 @@ border: 35px solid rgba(163, 227, 241, 0.83);
 border-top: 26px solid rgba(163, 227, 241, 0.83);
 border-bottom: 35px solid rgba(163, 227, 241, 0.83);
 margin-bottom: 0px;
-border-bottom-right-radius: 2px;
+border-bottom-right-radius: 1px;
 border-bottom-left-radius: 45px;
 }
 
@@ -17,7 +17,7 @@ border-bottom-left-radius: 45px;
   margin: auto;
   margin-bottom: 0px;
   border-radius: 25px;
-  border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 1px;
 
 }
 
@@ -90,6 +90,7 @@ select {
   width: 155px;
   height: 35px;
   border-radius: 20px;
+  border-top-right-radius: 1px;
   border: 1px solid grey;
 }
 
