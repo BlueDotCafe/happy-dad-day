@@ -63,7 +63,7 @@ label {
   color: rgba(5, 29, 47, 0.87);
   text-align: center;
   font-size: 12pt;
-  
+
 }
 
 select {
@@ -95,6 +95,7 @@ select {
 }
 
 .italy, .paris, .cancun {
+  display: inline;
   width: 247px;
   float: left;
   border: 22px solid rgba(163, 227, 241, 0.83);
