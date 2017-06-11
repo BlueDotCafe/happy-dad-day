@@ -91,8 +91,9 @@ select {
 }
 
 .italy, .paris, .cancun {
-  display: block;
-  margin: auto;
+  display: inline;
+  float: left;
+  margin-left: 980px;
   width: 247px;
   border: 22px solid rgba(163, 227, 241, 0.83);
   border-top-right-radius: 2px;
@@ -105,8 +106,8 @@ select {
 }
 
 .italy-ul, .paris-ul, .cancun-ul {
-  display: block;
-  margin: auto;
+
+  margin-left: 620px;
   width: 247px;
   border: 22px solid rgba(163, 227, 241, 0.83);
   border-bottom-right-radius: 2px;
